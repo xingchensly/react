@@ -1,0 +1,70 @@
+.manager__add {
+    text-decoration: none;
+    padding: 9px 100px;
+    color: white;
+    background-color: #61DAFB;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.manager__add span {
+    user-select: none;
+}
+
+
+.manager__add:focus, .manager__add:active {
+    background-color: #19c5f4;
+}
+
+.manager__input input {
+    padding: 5px 0;
+}
+
+.manager__input a {
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: #61DAFB;
+    border-radius: 3px;
+}
+
+.manager__tab {
+    margin-top: 15px;
+    padding: 0 70px;
+}
+
+.manager__tab__header,
+.manager__tab__list__item {
+    display: flex;
+}
+
+.manager__tab__header span,
+.manager__tab__list__item span {
+    margin: 0;
+    flex: 1;
+}
+
+.manager__tab__header span:first-child,
+.manager__tab__list__item span:first-child {
+    text-align: left;
+}
+
+.manager__tab__header span:last-child,
+.manager__tab__list__item span:last-child {
+    text-align: right;
+}
+
+.manager__tab__list {
+    margin-top: 10px;
+    overflow: scroll;
+    height: 300px;
+}
+
+.manager__tab__list__item {
+    margin-top: 5px;
+}
+
+.item__tools__delete {
+    margin-left: 5px !important;
+}
